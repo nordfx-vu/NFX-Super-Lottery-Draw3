@@ -164,5 +164,5 @@ let counterWinner = 0;
   $('.js_plaxify img').plaxify()
   $.plax.enable()
 
-})();
+})(); 
 
