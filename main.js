@@ -20,7 +20,7 @@ function createSlots (ring) {
     let content = $(slot).append('<p>' + (i)+ '</p>');
     ring.append(slot);
   }
-}
+} 
 
 function getSeed(i) {
   return Math.round(Math.random()*(MAX_SLOTS.charAt(i-1) == '0' ? '9' : MAX_SLOTS.charAt(i-1)));
